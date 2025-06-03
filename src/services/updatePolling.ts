@@ -16,5 +16,5 @@ export function startPollingUpdates() {
         console.error(`Failed to update ${entry.city}:`, err);
       }
     }
-  }, 10 * 60 * 100);
+  }, 10 * 60 * 1000);
 }
